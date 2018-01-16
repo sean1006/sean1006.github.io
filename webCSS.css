@@ -1,0 +1,14 @@
+body {
+    background-color: red;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: purple;
+}
+
+h1.main {
+    background-color: #FF0000;
+    color: #FFFF00;
+}
