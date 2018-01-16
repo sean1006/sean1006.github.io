@@ -1,14 +1,28 @@
 body {
-    background-color: red;
-}
-h1 {
-    color: blue;
-}
-p {
-    color: purple;
+    background-color: rgba(0,100,0,1);
+    color: rgba(180,30,180,1);
 }
 
-h1.main {
-    background-color: #FF0000;
-    color: #FFFF00;
+h1 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 2em;
+}
+
+/* NAVBAR */
+/* brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(64,255,64,.8);
+}
+/* link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(32,255,32,.5);
+}
+/* active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(64,255,64,1);
 }
