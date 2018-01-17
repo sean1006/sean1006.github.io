@@ -1,15 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Suez+One');
+
 body {
     background-color: rgba(0,100,0,1);
     color: rgba(180,30,180,1);
 }
 
-h1 {
-    font-size: 5em;
-}
-
 p {
     font-size: 2em;
+    margin-left: 5%;
+    font-family: Suez One;
 }
+
+h1 {
+    font-size: 3em;
+    margin-left: 3%;
+    font-family: Russo One;
+}
+
+.spacer {
+    display: block;
+    content: none;
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,120,0,1);
+    text-align: center;
+    padding: 10px;
+}
+.footButt {
+    background-color: rgba(0,120,0,1);
+    margin: auto;
+    border: 5px inset rgba(120,0,120,1);
+    border-radius: 15px;
+    padding: 2px;
+}
+
+#clock {
+    font-family: Russo One;
+    font-size: 5em;
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+#clockFrame {
+    background-color: rgba(0,120,0,1);
+    margin: auto;
+    width: 25%;
+    border: 8px inset rgba(120,0,120,1);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.txtborder {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    padding: 3px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(10,120,10,.7);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(30,150,30,1);
+    border-radius: 7px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,30,150,1); 
+}
+
 
 /* NAVBAR */
 /* brand and text color */
