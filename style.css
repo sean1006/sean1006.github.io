@@ -23,11 +23,7 @@ h1 {
     padding: 20px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+footer {
     background-color: rgba(0,120,0,1);
     text-align: center;
     padding: 10px;

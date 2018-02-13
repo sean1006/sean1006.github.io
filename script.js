@@ -1,5 +1,5 @@
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
+    document.getElementById('demo').innerHTML = "Paragraph changed.";
 }
 
 function startTime() {
@@ -22,6 +22,53 @@ function startTime() {
     var t = setTimeout(startTime, 500);
 }
 function formatTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    if (i < 10) {i = '0' + i};  // add zero in front of numbers < 10
     return i;
+}
+
+function getStocks() {
+
+    var reqestUrl = "https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=MSFT,FB,AAPL&apikey=SLD1FHVM98S5Q5OL";
+    var request = new XMLHttpRequest();
+    var name;
+    var price;
+
+    request.open("GET", requestUrl, true);
+    request.responseType = 'json';
+    request.send();
+    request.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var stockData = JSON.parse(this.responseText);
+            useStockData(stockData);
+        }
+    };
+
+    function useStockData(stockData) {
+        name = stockData["Stock Quotes"][0]["1. symbol"];
+        price = stockData['Stock Quotes'][0]['2. price'];
+        document.getElementById('stock').innerHTML = name;
+    }
+}
+
+function getStock() {
+    function getJSONP(url, success) {
+
+        var ud = '_' + +new Date,
+            script = document.createElement('script'),
+            head = document.getElementsByTagName('head')[0] 
+        || document.documentElement;
+
+        window[ud] = function(data) {
+            head.removeChild(script);
+            success && success(data);
+        };
+
+        script.src = url.replace('callback=?', 'callback=' + ud);
+        head.appendChild(script);
+
+    }
+
+    getJSONP('https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=MSFT,FB,AAPL&apikey=SLD1FHVM98S5Q5OL', function(data){
+        document.getElementById('stock').innerHTML = stockData["Stock Quotes"][0]["1. symbol"];
+    });  
 }

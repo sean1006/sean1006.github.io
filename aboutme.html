@@ -7,11 +7,12 @@
         <meta name="author" content="Sean Yin">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
-    
-    <body>
-        
+
+    <body onload="getStocks()">
+
         <!--Navigation Bar-->
         <div id="nav-placeholder"></div>
         <script>
@@ -20,26 +21,34 @@
             });
         </script>
         <!--End Navigation Bar-->
-        
+
         <div class="spacer"></div>
-        
+
         <h1>Heading</h1>
         <p>UCLA: gpa</p>
         <p>league ranking</p>
-        <h2>Favorite Stocks</h2>
-        <ul>
-            <li><p>AMD</p></li>
-            <li><p>NVDA</p></li>
-        </ul>
-        
-        <div class="footer">
+        <table>
+            <caption><p>STOCKS</p></caption>
+            <tr>
+                <th>AMD</th>
+                <th>LOW</th>
+            </tr>
+            <tr>
+                <td>NVDA</td>
+                <td>$100+</td>
+            </tr>
+        </table>
+
+        <footer>
+            <p>Posted by: MEEEE</p>
+            <p>Contact information: <a href="Bronze5Life@example.com">Bronze5Life@example.com</a>.</p>
             <button class="footButt">BTN</button>
             <button class="footButt">BTN</button>
             <button class="footButt">BTN</button>
             <button class="footButt">BTN</button>
             <button class="footButt">BTN</button>
             <button class="footButt">BTN</button>
-        </div>
-        
+        </footer>
+
     </body>
 </html>
