@@ -1,15 +1,11 @@
 # Website
 
-Code Name: I Think I'm Trolling
+Code Name: Garbage in Wonderland
 
 Find At: sean1006.github.io
 
 _______________________________________________________________________________________________________________________________
 
-No Idea What I'm Doing.
+Messing around with things the best I know how.
 
-It'll Be Cool One Day, I Swear.
-
-I Still Think The Clock Is Legit But The Rest.. Meh!
-
-PENDING REVISION!
+One day this website might just turn out looking alright!
