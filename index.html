@@ -22,15 +22,20 @@
         </script>
         <!--End Navigation Bar-->
 
-        <div class="spacer"></div>
+        <div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
 
         <div id="clockFrame">
             <p class="txtborder" id="clock"></p>
         </div>
-
-        <div class="spacer"></div>
 		
-		<img src="assets/lolidance.gif" alt="Trolling">
+		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+		
+        <div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+		
+		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)">
+            <img id="drag1" src="assets/lolidance.gif" alt="Trolling" draggable="true" ondragstart="drag(event)">
+        </div>
+		
 		<img src="assets/sean_resume.pdf" alt="RIP PDF">
 		
         <form name="myTravelForm" action="/action_page.php" target="_blank" method="post">

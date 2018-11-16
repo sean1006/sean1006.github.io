@@ -2,6 +2,7 @@ function myFunction() {
     document.getElementById('demo').innerHTML = "Paragraph changed.";
 }
 
+// CLOCK!
 function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -25,6 +26,22 @@ function formatTime(i) {
     if (i < 10) {i = '0' + i};  // add zero in front of numbers < 10
     return i;
 }
+
+
+// DRAG&DROP
+function dropOk(e) {
+    e.preventDefault();
+}
+function drag(e) {
+    e.dataTransfer.setData("drag&drop", e.target.id);
+}
+function drop(e) {
+    e.preventDefault();
+    var data = e.dataTransfer.getData("drag&drop");
+    e.target.appendChild(document.getElementById(data));
+}
+
+
 
 function getStocks() {
 

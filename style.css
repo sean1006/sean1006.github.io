@@ -18,6 +18,7 @@ h1 {
 }
 
 .spacer {
+	/* background-color: red; */
     display: block;
     content: none;
     padding: 20px;
@@ -49,6 +50,10 @@ footer {
     border: 8px inset rgba(120,0,120,1);
     border-radius: 20px;
     padding: 10px;
+}
+
+#drag1 {
+	
 }
 
 .txtborder {
