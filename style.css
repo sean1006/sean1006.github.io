@@ -52,8 +52,12 @@ footer {
     padding: 10px;
 }
 
-#drag1 {
-	
+#drag_lolidance {
+	display: block;
+	border: 8px inset rgba(120,0,120,1);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .txtborder {
