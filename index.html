@@ -11,7 +11,7 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
 
-    <body onload="startTime()">
+    <body onload="indexLoad()">
 
         <!--Navigation Bar-->
         <div id="nav-placeholder"></div>
@@ -22,21 +22,38 @@
         </script>
         <!--End Navigation Bar-->
 
+		
         <div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
 
-        <div id="clockFrame">
-            <p class="txtborder" id="clock"></p>
-        </div>
-		
-		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)">
+			<div id="clockFrame" draggable="true" ondragstart="drag(event)">
+				<p class="txtborder" id="clock"></p>
+			</div>
+		</div>
+
 		
         <div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+		
 		
 		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)">
             <img id="drag_lolidance" src="assets/lolidance.gif" alt="Trolling" draggable="true" ondragstart="drag(event)">
         </div>
 		
-		<img src="assets/sean_resume.pdf" alt="RIP PDF">
+		<div class="grid-container">
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>  
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+		</div>
+
+
+			<!--<img src="assets/sean_resume.pdf" alt="RIP PDF">-->
+		
 		
         <form name="myTravelForm" action="/action_page.php" target="_blank" method="post">
             <fieldset>

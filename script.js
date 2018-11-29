@@ -2,6 +2,11 @@ function myFunction() {
     document.getElementById('demo').innerHTML = "Paragraph changed.";
 }
 
+function indexLoad() {
+	startTime();
+	startGame();
+}
+
 // CLOCK!
 function startTime() {
     var today = new Date();
@@ -40,6 +45,25 @@ function drop(e) {
     var data = e.dataTransfer.getData("drag&drop");
     e.target.appendChild(document.getElementById(data));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

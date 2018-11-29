@@ -24,6 +24,15 @@ h1 {
     padding: 20px;
 }
 
+
+.txtborder {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
 footer {
     background-color: rgba(0,120,0,1);
     text-align: center;
@@ -46,7 +55,7 @@ footer {
 #clockFrame {
     background-color: rgba(0,120,0,1);
     margin: auto;
-    width: 25%;
+    width: 30em;
     border: 8px inset rgba(120,0,120,1);
     border-radius: 20px;
     padding: 10px;
@@ -60,13 +69,17 @@ footer {
     margin-right: auto;
 }
 
-.txtborder {
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+
+.grid-container {
+	border: 1px inset rgba(0,0,0,1);
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
+.grid-item {
+	padding: 20px;
+	text-align: center;
+}
+
 
 /* SCROLLBAR */
 /* width */
