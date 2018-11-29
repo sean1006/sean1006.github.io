@@ -1,26 +1,11 @@
-// Does work in chrome after all
+Nov 29, 2018: 2.0
+	+Dragability
+	+Grid dragging
+	+Color updates
+	+Changelog
+	-Contact Me HTML
+	-Some other HTML
 
-// What the heck REDESIGN
-
-ADD PICTURES
-DO SOMETHING COOL!
-
-FACEBOOK
-TWITTER
-LEAGUE NAME
-POGO NAME
-
-
-
-History Page
-
-
-
-
-
-
-// DONE
-Links
-- Linkedin
-- Github
-- Youtube 360 Playlist
+Plan
+	Color changing button
+	Pop up buttons
