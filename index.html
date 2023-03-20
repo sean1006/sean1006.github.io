@@ -1,102 +1,121 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Sean~</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Sean Yin">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    </head>
+<html lang="en">
 
-    <body onload="indexLoad()">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--Navigation Bar-->
-        <div id="nav-placeholder"></div>
-        <script>
-            $(function(){
-                $("#nav-placeholder").load("navbar.html");
-            });
-        </script>
-        <!--End Navigation Bar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Zhi+Mang+Xing&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>WEBSITE_TITLE_HERE</title>
+</head>
 
-		
-        <div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
+<body>
+    <div class="centered">
+        <span class="title bold">Leviathan Fairies</span>
+        <span class="title">Unleash the power of the ocean and call forth the wrath of the Leviathan Fairies! Let their
+            fury wash away all who stand in your way!</span>
 
-		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)">
-			<div id="clockFrame" draggable="true" ondragstart="drag(event)">
-				<p class="txtborder" id="clock"></p>
-			</div>
-		</div>
+        <span class="background">利維坦</span>
 
-		
-        <div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-		
-		
-		<div class="spacer" ondrop="drop(event)" ondragover="dropOk(event)">
-            <img id="drag_lolidance" src="assets/lolidance.gif" alt="Trolling" draggable="true" ondragstart="drag(event)">
-        </div>
-		
-		<div class="grid-container">
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>  
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-			<div class="grid-item" ondrop="drop(event)" ondragover="dropOk(event)"></div>
-		</div>
+        <img src="assets/loading_spin.gif" alt="loading spinner" class="loading">
 
 
-			<!--<img src="assets/sean_resume.pdf" alt="RIP PDF">-->
-		
-		
-        <form name="myTravelForm" action="/action_page.php" target="_blank" method="post">
-            <fieldset>
-                <legend>GIVE ME DUH INFO</legend>
-                <label><p>First Name:</p></label>
-                <input type="text" name="firstname">
-                <label><p>Last Name:</p></label>
-                <input type="text" name="lastname" />
-            </fieldset>
-            <fieldset>
-                <legend>PLACES TO GO</legend>
-                <select name="destination">
-                    <option value="Antarctica">Antarctica</option>
-                    <option value="Costa Rica" selected>Costa Rica</option>
-                    <option value="Your MOM">Your MOM</option>
-                    <option value="WHY">WHY</option>
-                    <option value="DID">DID</option>
-                    <option value="OUR">OUR</option>
-                    <option value="GOV">GOV</option>
-                    <option value="SHUT">SHUT</option>
-                    <option value="DOWN">DOWN</option>
-                </select><br>
-                <input type="radio" name="gender" value="male" checked> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
-                <input type="radio" name="gender" value="other"> Others
-            </fieldset>
-            <input type="submit" value="Submit">
-        </form>
+    </div>
 
-        <article>
-            <h1>Random Garbo</h1>
-            <p>har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har  har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har har</p>
-        </article>
+    <div class="aftermain">
+        <p class="story">
+            Once upon a time in the outermost regions of the Milky Way, there was a peaceful society of space whales.
+            These magnificent creatures lived amongst the celestial forests, navigating through the vast cosmic foliage
+            with their unique sense of echolocation. The space whales, with their majestic size and graceful movements,
+            were the gentle giants of the galaxy.
+            <br><br>
+            But the space whales were not alone. Sharing the Milky Way with them was a nation of time-traveling crabs.
+            These crafty crustaceans were gifted with the ability to manipulate the time-space continuum, moving
+            seamlessly through the past, present, and future. Their advanced technology had earned them a reputation as
+            a force to be reckoned with.
+            <br><br>
+            Over time, tensions arose between the space whales and the time-traveling crabs. The crabs, seeking to
+            expand their territory, began to encroach upon the cosmic forests that the whales called home. This didn't
+            sit well with the space whales, who felt threatened by the crabs' rapid expansion.
+            <br><br>
+            One fateful day, the space whales convened a council to address the matter. Their wise and witty leader,
+            Wally, spoke up: "My fellow space whales, it is time to put an end to the encroachment of the time-traveling
+            crabs! We must defend our celestial forests and maintain peace in the galaxy!"
+            <br><br>
+            The space whales, determined to stand up for their home, trained tirelessly for the inevitable battle. They
+            learned the art of cosmic acrobatics, allowing them to twirl and somersault through the dense celestial
+            foliage with ease. They even developed a unique weapon: the Sonic Splash, which could send powerful
+            shockwaves through space by channeling their echolocation.
+            <br><br>
+            Meanwhile, the time-traveling crabs were preparing for battle as well. They upgraded their time-traveling
+            shells with powerful lasers and enhanced their pinchers to wield mighty space swords. Their leader, Captain
+            Claw, was confident that his army would emerge victorious in the upcoming clash.
+            <br><br>
+            The day of the epic battle finally arrived. The space whales and the time-traveling crabs faced off, their
+            armies filling the celestial sky. Wally and Captain Claw met in the center of the cosmic battlefield, their
+            gazes locked in a fierce stare-down.
+            <br><br>
+            The first move was made by a brave space whale, who unleashed a powerful Sonic Splash. The wave of energy
+            rippled through the battlefield, disorienting the crabs and giving the whales an early advantage. The crabs,
+            however, were quick to recover, retaliating with their own volley of lasers and space sword strikes.
+            <br><br>
+            As the battle raged on, both sides fought with ferocity and determination. The space whales twisted and
+            turned through the cosmic forest, utilizing their agility to outmaneuver the time-traveling crabs. In
+            response, the crabs employed their time-traveling abilities, popping in and out of existence to surprise and
+            confuse the whales.
+            <br><br>
+            After hours of intense combat, the two armies were exhausted. Wally and Captain Claw, recognizing the
+            futility of their efforts, called a ceasefire. As the dust settled, the two leaders realized that their
+            shared love for the celestial forests was something that could unite them.
+            <br><br>
+            Wally proposed a plan: "What if, instead of fighting each other, we work together to protect and preserve
+            the cosmic forests we both love?" Captain Claw agreed, and the two leaders signed a truce, pledging their
+            commitment to a peaceful and collaborative existence.
+            <br><br>
+            From that day forward, the space whales and the time-traveling crabs lived in harmony, working together to
+            protect and maintain the celestial forests of the Milky Way. They even formed a joint task force, known as
+            the Galactic Forest Guardians, dedicated to preserving the beauty of the cosmos for generations to come.
+            <br><br>
+            And so, the once-feuding factions became the best of friends, their alliance marking the beginning of a new
+            era of peace and cooperation in the Milky Way. The Galactic Forest Guardians flourished, with space whales
+            and time-traveling crabs working side by side to combat cosmic threats and promote environmental
+            conservation.
+            <br><br>
+            As they patrolled the celestial forests, the Guardians tackled various challenges, from asteroid
+            infestations to invasive space fungi. They even thwarted the occasional intergalactic poacher, ensuring that
+            the unique creatures of the cosmic forest remained protected.
+            <br><br>
+            With each passing year, the space whales and time-traveling crabs grew closer. They began to share their
+            respective knowledge and culture, enriching both species and strengthening their bond. The space whales
+            taught the crabs about the art of cosmic acrobatics, while the crabs shared their time-traveling secrets.
+            <br><br>
+            One day, Wally and Captain Claw decided to embark on a grand adventure. They would travel back in time to
+            the early days of the celestial forest, witnessing its birth and the evolution of their respective species.
+            The duo hopped into Captain Claw's time-traveling shell and set the coordinates for the distant past.
+            <br><br>
+            As they journeyed through the annals of time, Wally and Captain Claw marveled at the wonders of the
+            universe. They watched the birth of stars and the formation of planets, and they even caught a glimpse of
+            the first space whale and time-traveling crab ancestors. It was a humbling experience that deepened their
+            appreciation for the cosmic forest they called home.
+            <br><br>
+            Upon their return to the present, Wally and Captain Claw shared their newfound knowledge with the Galactic
+            Forest Guardians. Inspired by the wonders of their shared history, the Guardians redoubled their efforts to
+            protect and preserve the celestial forests for future generations.
+            <br><br>
+            And so, the space whales and the time-traveling crabs continued to live and work together in harmony, their
+            alliance a shining example of unity and cooperation in the vast expanse of the Milky Way. Through their
+            combined efforts, the Galactic Forest Guardians ensured that the celestial forests remained a sanctuary for
+            all the wondrous creatures of the cosmos.
+        </p>
+    </div>
+</body>
 
-        <footer>
-            <p>Posted by: MEEEE</p>
-            <p>Contact information: <a href="Bronze5Life@example.com">Bronze5Life@example.com</a>.</p><p>Contact information: <a href="Bronze5Life@example.com">Bronze5Life@example.com</a>.</p>
-            <button class="footButt">BTN</button>
-            <button class="footButt">BTN</button>
-            <button class="footButt">BTN</button>
-            <button class="footButt">BTN</button>
-            <button class="footButt">BTN</button>
-            <button class="footButt">BTN</button>
-        </footer>
-    </body>
 </html>
